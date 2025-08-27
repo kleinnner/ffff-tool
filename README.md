@@ -1,6 +1,9 @@
 # Fully Flexible File Format (.FFFF) Tool
 
 A command-line utility by **0-1.gg and Lois-Kleinner** for packing and unpacking the `.ffff` custom archive format.
+https://doi.org/10.5281/zenodo.16969001
+https://github.com/kleinnner/ffff-tool/blob/main/SPECIFICATION.md
+https://github.com/kleinnner/ffff-tool/releases/tag/v1.0.0
 
 The `.ffff` format is a data-agnostic container designed for maximum flexibility and data integrity. It can archive any type of file without modification.
 
@@ -44,4 +47,5 @@ The tool is run using `python ffff.py` followed by a command.
 
 **To Pack Files:**
 ```bash
+
 python ffff.py pack <output_archive.ffff> <file1> <file2> ...
